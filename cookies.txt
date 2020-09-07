@@ -1,0 +1,15 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.tql.com	TRUE	/	FALSE	1999999999	TiPMix	8.5841499774643
+www.tql.com	TRUE	/	FALSE	1999999999	x-ms-routing-name	self
+www.tql.com	TRUE	/	FALSE	1999999999	CMSCsrfCookie	d8RX1CZIEKFNQh3gACa4stpCgv/Yc7aoT8E32zj/
+www.tql.com	TRUE	/	FALSE	1999999999	ASP.NET_SessionId	yv0lbeowhxdavyocdtrzpgeb
+www.tql.com	TRUE	/	FALSE	1999999999	SameSite	Lax
+www.tql.com	TRUE	/	FALSE	1999999999	CurrentContact	b8083393-3dbd-4362-b5d7-4931013ba113
+www.tql.com	TRUE	/	FALSE	1999999999	CMSPreferredCulture	en-US
+www.tql.com	TRUE	/	FALSE	1999999999	VisitorStatus	11062251097
+www.tql.com	TRUE	/	FALSE	1999999999	CMSUserPage	{"TimeStamp":"2020-09-07T08:57:04.856749-04:00","LastPageDocumentID":2,"LastPageNodeID":2,"Identifier":"e3b9608f-bc14-4f71-a306-f87faa2c8cbe"}
+www.tql.com	TRUE	/	FALSE	1999999999	CMSLandingPageLoaded	true
+stage.tql.com	TRUE	/	FALSE	1999999999	ARRAffinity	58e8d07faebee855be9dd6c6de6dc8471c41603b6d903cce5ee843a49d7ddb9b
+www.tql.com	TRUE	/	FALSE	1999999999	ARRAffinity	e71357aa16a848fa41032a3759820be6a393ae36fbcf52d89ebbdce9d2ba90bd
+
