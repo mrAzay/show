@@ -4773,9 +4773,12 @@ input[type="tel"] {
 	margin-bottom: 5px
 }
 
+.track-panel {
+	background-color: #3E3E3E;
+}
+
 .footer-block {
-	background: -webkit-linear-gradient(top, #141515 0%, #0a3043 100%);
-	background: linear-gradient(to bottom, #141515 0%, #0a3043 100%);
+	background-color: #3E3E3E;
 	padding: 35px 0 31px
 }
 
