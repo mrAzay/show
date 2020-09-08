@@ -810,7 +810,17 @@ a {
 	font-weight: normal;
 	color: #fff
 }
-
+.btn.btn-primary{
+	margin-bottom: 20px;
+}
+.cta-panel .column .text-wrap {
+	display: flex;
+	flex-direction: column;
+	color: #fff;
+	align-items: center;
+	justify-content: flex-start;
+	min-height: 200px;
+}
 .ui-state-active a,
 .ui-state-active a:link,
 .ui-state-active a:visited {
