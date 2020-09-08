@@ -805,8 +805,8 @@ a {
 .ui-state-active,
 .ui-widget-content .ui-state-active,
 .ui-widget-header .ui-state-active {
-	border: 1px solid #003eff;
-	background: #007fff;
+	border: 1px solid #3E3E3E;
+	background: #80c800;
 	font-weight: normal;
 	color: #fff
 }
