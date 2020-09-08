@@ -2962,7 +2962,7 @@ body {
 @media(min-width:1210px) {
 	.banner .text-block {
 		padding: 0;
-		max-width: 424px;
+		max-width: 570px;
 		margin-left: 77px
 	}
 }
@@ -3018,6 +3018,18 @@ body {
 	.banner h1 small,
 	.banner .h2 small {
 		margin-bottom: -7px
+	}
+}
+
+@media (max-width: 1600px) {
+	.track-video{
+		top: -180px;
+	}
+}
+
+@media (max-width: 1024px) {
+	.track-video{
+		top: -210px;
 	}
 }
 
@@ -3085,7 +3097,7 @@ body {
 
 @media(min-width:768px) {
 	.cta-panel .column {
-		width: 33.33%
+		width: 25%
 	}
 }
 
@@ -3449,7 +3461,7 @@ body {
 	white-space: nowrap;
 	border: none;
 	background: #fff;
-	color: #0093d0;
+	color: #008000;
 	text-transform: uppercase;
 	font-size: 13px;
 	font-weight: 900;
@@ -3480,7 +3492,7 @@ body {
 
 @media(min-width:1024px) {
 	.track-form .link {
-		text-align: left
+		text-align: right;
 	}
 }
 
@@ -14538,10 +14550,61 @@ a:not([href]):not([tabindex]) {
 }
 
 .track-form input[type="button"]:hover {
-	background: #9cd5ef;
-	border-color: #9cd5ef
+	background: rgba(0, 255, 0, .5);
+	border-color: rgba(0, 255, 0, .5)
+}
+.footer-form{
+	color: #fff;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+}
+.footer-form__title{
+	font-size: 32px;
+}
+footer .social {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+.footer-form__inputs {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.footer-form__input-title{
+	color: #fff;
+	font-weight: 400;
+	margin-bottom: 10px;
 }
 
+.footer-form__input{
+	width: 100%;
+	outline: transparent;
+	background-color: transparent;
+	border: none;
+	color: #fff;
+	border-bottom: 1px solid #fff;
+	resize: none; 
+}
+.footer-form__label{
+	width: 30%;
+	margin-top: 15px;
+}
+textarea.footer-form__input {
+	border: 1px solid #fff;
+}
+.social-tel {
+	display: flex;
+	color: #fff;
+}
+.social-tel__title{
+	margin-right: 5px;
+}
+.footer-form__label.footer-form__textarea {
+	width: 100%;
+}
 .banner.light-variant {
 	color: #fff
 }
@@ -14556,12 +14619,20 @@ a:not([href]):not([tabindex]) {
 .banner.light-variant .text-block {
 	text-shadow: 0 0 2px #000
 }
-
+@media (max-width: 768px) {
+	.footer-form__inputs{
+		flex-direction: column;
+	}
+	.footer-form__label{
+		width: 100%;
+	}
+}
 @media(min-width:577px) {
 	.banner .text-block.right-variant {
 		float: right
 	}
 }
+
 
 .banner .text-block .btn {
 	text-shadow: none

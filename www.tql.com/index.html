@@ -72,7 +72,7 @@
   <style>
     video {
       width: 100%;
-      top: -140px;
+      top: -180px;
       position: absolute;
       height: 100vh;
       object-fit: cover;
@@ -187,8 +187,7 @@
           <div class="container">
             <div class="logo-hold">
               <a href="index.html" class="logo">
-                <!--<img src="/App_Themes/TQL/images/logo.png" alt="TQL" width="97" height="29">-->
-                <img src="App_Themes/TQL/images/TQLLogoCropped.svg" alt="TQL" width="97" height="29">
+
               </a>
               <div class="call-wrap">
                 <span>Call Us 24/7/365</span>
@@ -208,13 +207,12 @@
             <div class="container">
               <div class="logo-hold">
                 <a href="index.html" accesskey="1" class="logo">
-                  <!--<img src="/App_Themes/TQL/images/logo.png" alt="TQL" width="97" height="29">-->
-                  <img src="App_Themes/TQL/images/TQLLogoCropped.svg" alt="TQL" width="97" height="29">
+
                 </a>
                 <div class="call-wrap">
                   <span>Call Us 24/7/365</span>
-                  <a href="tel:8005803101"
-                    onClick="dataLayer.push({'event': 'customEvent','eventCategory': 'Phone Call','eventAction': 'Click To Call','eventLabel': 'Header'});">800.580.3101</a>
+                  <a href="tel:4076358712"
+                    onClick="dataLayer.push({'event': 'customEvent','eventCategory': 'Phone Call','eventAction': 'Click To Call','eventLabel': 'Header'});">4076358712</a>
                 </div>
               </div>
               <div class="form-drop-holder">
@@ -359,12 +357,7 @@
           <!-- top gray block -->
           <div class="utility-nav-block">
             <div class="container">
-              <ul>
-                <li class="d-lg-none"><a href="#myModal" data-toggle="modal">Request a Quote</a></li>
-                <li><a href="https://trax.tql.com/#/shipmenttracking" target="_blank">Track Shipment</a></li>
-                <li><a href="https://register.tql.com/" target="_blank">Request a Login</a></li>
-                <li><a href="#loginModal" class="login" data-toggle="modal">LOGIN</a></li>
-              </ul>
+              <a href="#myModal" class="btn btn-primary">Request a Quote</a>
             </div>
           </div>
         </div>
@@ -373,9 +366,9 @@
 
 
 
-        <section class="banner">
+        <section class="banner" style='height: 200px; box-sizing: content-box;'>
 
-          <video src="../video/TQL HERO BACKGROUND - HOME.mp4" autoplay="autoplay" loop muted="muted"> </video>
+          <video class="track-video" src="../video/videoplayback.webm" autoplay="autoplay" loop muted="muted"> </video>
           <!-- <iframe src="../video/TQL HERO BACKGROUND - HOME.mp4" title="banner video" class="d-none d-md-block"
             allowfullscreen></iframe> -->
           <div class="bg-stretch d-md-none">
@@ -385,10 +378,10 @@
 
           <div class="container" style="position: relative; z-index: 2;">
             <div class="text-block text-center  center-variant">
-              <h1 class="h2 text-uppercase"><small>NO LIMITS</small>NO EXCUSES</h1>
+              <h1 class="h2 text-uppercase"><small>Difficult jobs</small>call for unique service</h1>
               <p>Exceed the customer's expectations at all times from moment of pickup until delivery 24/7/365</p>
 
-              <a href="#myModal" class="btn btn-primary">Request a Quote</a>
+
 
             </div>
           </div>
@@ -400,7 +393,7 @@
           <div class="column">
             <!-- grayscale background image -->
             <div class="img-wrap"
-              style="background-image: url('getmedia/26a8eacd-c813-4d79-a055-57e1f13bb2d7/ShipWithUs-Homee1ad.jpeg?width=485&amp;height=388&amp;ext=.jpg');">
+              style="background-image: url('../img/carriers (2).jpg?width=485&amp;height=388&amp;ext=.jpg');">
               <div class="custom-img-overlay" style="background-color: #000000"></div>
             </div>
             <div class="text-center text-wrap">
@@ -408,13 +401,12 @@
               <h2 class="text-uppercase text-white">count on us.</h2>
               <a href="logistics-services.html"
                 onClick="dataLayer.push({'event': 'customEvent','eventCategory': 'Learn More','eventAction': 'Submit','eventLabel': 'Home - CTA: FIND YOUR SOLUTION'});"
-                class="btn btn-primary">FIND YOUR SOLUTION</a>
+                class="btn btn-primary">PROJECTS</a>
             </div>
           </div>
           <div class="column">
             <!-- grayscale background image -->
-            <div class="img-wrap"
-              style="background-image: url('getmedia/bfc70e2e-ecee-4d2e-8e82-3da61a86c60c/HaulWithUs-Homee1ad.jpeg?width=485&amp;height=388&amp;ext=.jpg');">
+            <div class="img-wrap" style="background-image: url('../img/logistics services (2).jpg');">
               <div class="custom-img-overlay" style="background-color: #0093d0"></div>
             </div>
             <div class="text-center text-wrap">
@@ -422,13 +414,13 @@
               <h2 class="text-uppercase text-white">haul with us.</h2>
               <a href="carriers.html"
                 onClick="dataLayer.push({'event': 'customEvent','eventCategory': 'Learn More','eventAction': 'Submit','eventLabel': 'Home - CTA: FIND YOUR LOAD'});"
-                class="btn btn-primary btn-for-bg">FIND YOUR LOAD</a>
+                class="btn btn-primary btn-for-bg">OPEN DECKS</a>
             </div>
           </div>
           <div class="column">
             <!-- grayscale background image -->
             <div class="img-wrap"
-              style="background-image: url('getmedia/fdf72e82-4682-477d-9a98-83009eb4b1ed/WorkWithUS-Homee1ad.jpeg?width=485&amp;height=388&amp;ext=.jpg');">
+              style="background-image: url('../img/jobs.jpg?width=485&amp;height=388&amp;ext=.jpg');">
               <div class="custom-img-overlay" style="background-color: #003764"></div>
             </div>
             <div class="text-center text-wrap">
@@ -436,66 +428,25 @@
               <h2 class="text-uppercase text-white">work with us.</h2>
               <a href="jobs.html"
                 onClick="dataLayer.push({'event': 'customEvent','eventCategory': 'Learn More','eventAction': 'Submit','eventLabel': 'Home - CTA: FIND YOUR JOB'});"
-                class="btn btn-primary">FIND YOUR JOB</a>
+                class="btn btn-primary">HEAVY HAUL</a>
+            </div>
+          </div>
+          <div class="column">
+            <!-- grayscale background image -->
+            <div class="img-wrap" style="background-image: url('../img/carriers.jpg');">
+              <div class="custom-img-overlay" style="background-color: #003764"></div>
+            </div>
+            <div class="text-center text-wrap">
+              <h1>JOBS</h1>
+              <h2 class="text-uppercase text-white">work with us.</h2>
+              <a href="jobs.html"
+                onClick="dataLayer.push({'event': 'customEvent','eventCategory': 'Learn More','eventAction': 'Submit','eventLabel': 'Home - CTA: FIND YOUR JOB'});"
+                class="btn btn-primary btn-for-bg">SCECIAL SOLUTIONS</a>
             </div>
           </div>
         </section>
-        <section class="awards-section text-center">
-          <div class="container">
-            <h2 class="text-uppercase text-primary">What’s Happening at TQL
 
-
-
-            </h2>
-            <div class="row">
-              <div class="col-md-4">
-                <div class="wrap">
-                  <div class="img-wrap"><a
-                      href="about-us/lifeattql-blog/february-2020/tql-named-2020-fortune-100-best-companies-to-work.html"
-                      onClick="dataLayer.push({'event': 'customEvent','eventCategory': 'Learn More','eventAction': 'Submit','eventLabel': 'Home - What&rsquo;s Happening: FORTUNE TOP 100 WIN'});"><img
-                        src="getmedia/f95d2916-8026-4c5b-95a1-e9184a681d7a/Fortune_2020f668.png?width=340&amp;height=234&amp;ext=.png"
-                        alt=""></a></div>
-                  <span class="title">FORTUNE TOP 100 WIN</span>
-                  <p>TQL has been named to the 2020 FORTUNE 100 Best Companies to Work For. <a
-                      href="about-us/lifeattql-blog/february-2020/tql-named-2020-fortune-100-best-companies-to-work.html"
-                      onClick="dataLayer.push({'event': 'customEvent','eventCategory': 'Learn More','eventAction': 'Submit','eventLabel': 'Home - What&rsquo;s Happening: FORTUNE TOP 100 WIN'});">Read
-                      More.</a></p>
-                </div>
-              </div>
-
-              <div class="col-md-4">
-                <div class="wrap">
-                  <div class="img-wrap"><a
-                      href="about-us/lifeattql-blog/may-2020/tql-named-to-inc-magazine%e2%80%99s-best-workplaces-list.html"
-                      onClick="dataLayer.push({'event': 'customEvent','eventCategory': 'Learn More','eventAction': 'Submit','eventLabel': 'Home - What&rsquo;s Happening: TQL LANDS SPOT ON INC. '});"><img
-                        src="getmedia/c2e71649-580d-4567-b8bd-4dada8305142/Inc-Best-Workplaces-2020-Standard-Logo_Home-Pagef668.png?width=340&amp;height=234&amp;ext=.png"
-                        alt=""></a></div>
-                  <span class="title">TQL LANDS SPOT ON INC. </span>
-                  <p>Inc. Magazine recognizes TQL as a Best Workplaces 2020. <a
-                      href="about-us/lifeattql-blog/may-2020/tql-named-to-inc-magazine%e2%80%99s-best-workplaces-list.html"
-                      onClick="dataLayer.push({'event': 'customEvent','eventCategory': 'Learn More','eventAction': 'Submit','eventLabel': 'Home - What&rsquo;s Happening: TQL LANDS SPOT ON INC. '});">Read
-                      More.</a></p>
-                </div>
-              </div>
-
-              <div class="col-md-4">
-                <div class="wrap">
-                  <div class="img-wrap"><a href="hq-expansion.html"
-                      onClick="dataLayer.push({'event': 'customEvent','eventCategory': 'Learn More','eventAction': 'Submit','eventLabel': 'Home - What&rsquo;s Happening: TAKE A TOUR OF HQ'});"><img
-                        src="getmedia/ab308d0b-0156-4d45-9bb8-0587c4ac7751/Expansion_HomepageGraphicf668.png?width=340&amp;height=234&amp;ext=.png"
-                        alt=""></a></div>
-                  <span class="title">TAKE A TOUR OF HQ</span>
-                  <p>TQL's HQ campus in Cincinnati, OH is under construction. <a href="hq-expansion.html"
-                      onClick="dataLayer.push({'event': 'customEvent','eventCategory': 'Learn More','eventAction': 'Submit','eventLabel': 'Home - What&rsquo;s Happening: TAKE A TOUR OF HQ'});">Watch
-                      Our Video.</a></p>
-                </div>
-              </div>
-
-
-            </div>
-          </div>
-        </section>
-        <section class="track-panel bg-primary text-white text-center">
+        <section class="track-panel bg-secondary text-white text-center">
           <div class="container">
 
             <h2 class="text-uppercase">Track your Load</h2>
@@ -504,9 +455,8 @@
               <div class="form-group">
                 <input name="p$lt$ctl00$pph_postbreadcrumbs$p$lt$ctl00$TrackYourLoad$h5inTracking$html5input"
                   type="text" id="p_lt_ctl00_pph_postbreadcrumbs_p_lt_ctl00_TrackYourLoad_h5inTracking_html5input"
-                  class="form-control form-control" placeholder="Enter your TQL PO# or TQL LTL BOL#"
-                  title="input tracking id" onkeypress="if (event.keyCode == 13) {trackLoad.openLink();return false;};"
-                  aria-label="Enter your TQL PO# or TQL LTL BOL#" />
+                  class="form-control form-control" title="input tracking id"
+                  onkeypress="if (event.keyCode == 13) {trackLoad.openLink();return false;};" />
                 <input type="button" value="track" onClick="trackLoad.openLink();">
               </div>
               <div class="link">
@@ -539,156 +489,39 @@
 
         <div class="footer-block">
           <div class="container container-sm">
-            <!-- buttons in mobile -->
-            <div class="btn-hold">
-              <a href="#myModal" class="btn btn-primary text-uppercase" data-toggle="modal">Request a Quote</a>
+            <div class="footer-form">
+              <div class="footer-form__title">REQUEST A QUOTE:</div>
+              <div class="footer-form__inputs">
+                <label class="footer-form__label">
+                  <div class="footer-form__input-title">Name:</div>
+                  <input type="text" class="footer-form__input">
+                </label>
+                <label class="footer-form__label">
+                  <div class="footer-form__input-title">Phone number:</div>
+                  <input type="text" class="footer-form__input">
+                </label>
+                <label class="footer-form__label">
+                  <div class="footer-form__input-title">Email</div>
+                  <input type="text" class="footer-form__input">
+                </label>
+                <label class="footer-form__label footer-form__textarea">
+                  <div class="footer-form__input-title">Description:</div>
+                  <textarea rows="3" type="text" class="footer-form__input"></textarea>
+                </label>
+              </div>
+            </div>
+            <div class="social">
               <a href="https://careers.tql.com/ListJobs/All" target="_blank"
                 class="btn btn-secondary btn-for-bg text-uppercase">Search Jobs</a>
-            </div>
-            <div class="nav-row">
-              <div class="column">
-                <div class="footer-accordion">
-                  <span class="nav-title"><a href="logistics-services.html" class="opener">LOGISTICS Services</a></span>
-                  <div class="row slide">
-                    <div class="col-md-6">
 
-                      <div class="wrap">
-                        <span class="title">Modes</span>
-                        <ul class="footer-nav">
-                          <li><a href="logistics-services.html">Logistics Services</a></li>
-                          <li><a href="full-truckload.html">Full Truckload</a></li>
-                          <li><a href="less-than-truckload.html">Less Than Truckload</a></li>
-                          <li><a href="intermodal.html">Intermodal</a></li>
-
-                        </ul>
-                      </div>
-                    </div>
-                    <div class="col-md-6">
-                      <div class="wrap">
-                        <span class="title">Technology</span>
-                        <ul class="footer-nav">
-                          <li><a href="tql-trax.html">TQL TRAX</a></li>
-                          <li><a href="data-integration.html">Data Integration & Visibility</a></li>
-
-                        </ul>
-                        <a href="#myModal" class="btn btn-primary text-uppercase" data-toggle="modal">Request a
-                          Quote</a>
-                      </div>
-                    </div>
-                  </div>
+                <div class="social-tel">
+                  <div class="social-tel__title">Tel:</div>
+                  <a href="tel:4076358712"
+                  onclick="dataLayer.push({'event': 'customEvent','eventCategory': 'Phone Call','eventAction': 'Click To Call','eventLabel': 'Header'});">4076358712</a>
                 </div>
-              </div>
-              <div class="column">
-                <div class="footer-accordion">
-                  <span class="nav-title"><a href="carriers.html" class="opener">carriers</a></span>
-                  <div class="slide">
-                    <ul class="footer-nav">
-                      <li><a href="carriers.html">Carriers</a></li>
-                      <li><a href="https://tqlcarriers.rmissecure.com/_s/reg/generalrequirementsv2.aspx">Get Set Up</a>
-                      </li>
-                      <li><a href="carrier-dashboard.html">TQL Carrier Dashboard</a></li>
-                      <li><a href="carrier-faqs.html">FAQs</a></li>
-                      <li><a href="https://carrierdashboard.tql.com/#/LoadSearch">Load Board</a></li>
-
-                    </ul>
-                  </div>
-                </div>
-                <div class="footer-accordion">
-                  <span class="nav-title"><a href="about-us.html" class="opener">about us</a></span>
-                  <div class="slide">
-                    <ul class="footer-nav">
-                      <li><a href="about-us.html">About Us</a></li>
-                      <li><a href="cares.html">TQL Cares</a></li>
-                      <li><a href="tql-in-the-news.html">TQL In The News</a></li>
-                      <li><a href="press-releases.html">Press Releases</a></li>
-                      <li><a href="drive-blog.html">TQL Drive Blog</a></li>
-                      <li><a href="lifeattql-blog.html">Life At TQL Blog</a></li>
-
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div class="column">
-                <div class="footer-accordion">
-                  <span class="nav-title"><a href="jobs.html" class="opener">jobs</a></span>
-                  <div class="slide">
-                    <ul class="footer-nav">
-                      <li><a href="jobs.html">Jobs</a></li>
-                      <li><a
-                          href="https://www.applytracking.com/optin.aspx?c=kb9D6zkq4X42sf7EuKyNq0lx5cTfrYJb&amp;source=TNF"
-                          target="_blank">Join Talent Network</a></li>
-                      <li><a href="jobs-benefits.html">Benefits</a></li>
-                      <li><a href="contact/locations.html">Locations</a></li>
-
-                    </ul>
-                    <a href="https://careers.tql.com/ListJobs/All" target="_blank"
-                      class="btn btn-secondary btn-for-bg text-uppercase">Search Jobs</a>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </div>
-        <div class="contacts-block">
-          <div class="container container-sm">
-            <div class="column">
-              <span class="nav-title">Contact us</span>
-              <span class="adr"><a href="tel:8005803101"><span class="icon-phone ico"></span>800.580.3101</a></span>
-              <span class="adr"><a href="contact/locations.html"><span class="icon-pin ico"></span>Locations</a></span>
-
-            </div>
-            <div class="column">
-              <span class="nav-title">follow us</span>
-              <div class="social-block text-primary">
-                <span>Life at TQL Channels</span>
-                <ul class="social-networks">
-                  <li><a href="https://www.instagram.com/lifeattql/?hl=en" target="_blank" class="text-primary"><span
-                        class="sr-only">Instagram</span><span class="icon-instagram"></span></a></li>
-                  <li><a href="http://www.youtube.com/user/TQLogistics" target="_blank" class="text-primary"><span
-                        class="sr-only">youtube</span><span class="icon-youtube"></span></a></li>
-                  <li><a href="http://www.linkedin.com/company/total-quality-logistics?trk=biz-companies-cym"
-                      target="_blank" class="text-primary"><span class="sr-only">linkedin</span><span
-                        class="icon-linkedin"></span></a></li>
-
-                </ul>
-              </div>
-              <div class="social-block ">
-                <span>Industry Channels</span>
-                <ul class="social-networks">
-                  <li><a href="http://www.facebook.com/TotalQualityLogistics?fref=ts" target="_blank" class=""><span
-                        class="sr-only">facebook</span><span class="icon-facebook"></span></a></li>
-                  <li><a href="https://twitter.com/TQLogistics" target="_blank" class=""><span
-                        class="sr-only">twitter</span><span class="icon-twitter"></span></a></li>
-                  <li><a href="http://www.linkedin.com/company/total-quality-logistics?trk=biz-companies-cym"
-                      target="_blank" class=""><span class="sr-only">linkedin</span><span
-                        class="icon-linkedin"></span></a></li>
-
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="copyright-block">
-          <div class="container container-sm">
-            <ul>
-              <li>©2020 <a href="index.html">TQL</a></li>
-              <li><a href="privacy.html">Privacy</a></li>
-              <li><a href="terms.html">Terms</a></li>
-              <li><a href="eeo.html">EEO</a></li>
-              <li><a href="responsiblecarepolicy.html">Responsible Care</a></li>
-              <li><a href="sitemap.html">Site Map</a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="gdpr-banner">
-          <div class="gdpr-inner"><span class="ConsentButtons"></span><span class="accept-button"></span>
-            We use cookies on our website. To learn more about how we use cookies and how to change your cookie settings
-            if you do not want cookies on your computer, please see our <a href="privacy.html">Privacy and Cookies
-              Policy</a>. By continuing to use this site you consent to our use of cookies in accordance with our <a
-              href="privacy.html">Privacy and Cookies Policy</a>.
-          </div>
-        </div>
-
         <script>
           var cookieLevelInterval = setInterval(function () {
             if (typeof $ == 'function') {
@@ -720,9 +553,6 @@
             <div class="modal-body">
               <a class="close" href="#" data-dismiss="modal"><span class="sr-only">close button</span></a>
               <h2>REQUEST A QUOTE
-
-
-
               </h2>
               <p>Tell us more about your freight. Select the mode you would like to receive a quote on.</p>
 
