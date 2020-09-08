@@ -560,152 +560,66 @@ jQuery(function () {
 </div>
 </section></main>
   <footer class="footer">
-    
-<div class="footer-block">
-	<div class="container container-sm">
-	  <!-- buttons in mobile -->
-	  <div class="btn-hold">
-		<a href="#myModal" class="btn btn-primary text-uppercase" data-toggle="modal">Request a Quote</a>
-		<a href="https://careers.tql.com/ListJobs/All" target="_blank" class="btn btn-secondary btn-for-bg text-uppercase">Search Jobs</a>
-	  </div>
-	  <div class="nav-row">
-        <div class="column">
-		  <div class="footer-accordion">
-			<span class="nav-title"><a href="logistics-services.html" class="opener">LOGISTICS Services</a></span>
-			<div class="row slide">
-              <div class="col-md-6">
-	
-		<div class="wrap">
-	  <span class="title">Modes</span>
-<ul class="footer-nav">
-<li><a href="logistics-services.html" >Logistics Services</a></li>
-<li><a href="full-truckload.html" >Full Truckload</a></li>
-<li><a href="less-than-truckload.html" >Less Than Truckload</a></li>
-<li><a href="intermodal.html" >Intermodal</a></li>
 
-</ul>
-</div>
-</div>
-              <div class="col-md-6">
-	  <div class="wrap">
-	  <span class="title">Technology</span>
-<ul class="footer-nav">
-<li><a href="tql-trax.html" >TQL TRAX</a></li>
-<li><a href="data-integration.html" >Data Integration & Visibility</a></li>
+        <div class="footer-block">
+          <div class="container container-sm">
+            <div class="footer-form">
+              <div class="footer-form__title">REQUEST A QUOTE:</div>
+              <div class="footer-form__inputs">
+                <label class="footer-form__label">
+                  <div class="footer-form__input-title">Name:</div>
+                  <input type="text" class="footer-form__input">
+                </label>
+                <label class="footer-form__label">
+                  <div class="footer-form__input-title">Phone number:</div>
+                  <input type="text" class="footer-form__input">
+                </label>
+                <label class="footer-form__label">
+                  <div class="footer-form__input-title">Email</div>
+                  <input type="text" class="footer-form__input">
+                </label>
+                <label class="footer-form__label footer-form__textarea">
+                  <div class="footer-form__input-title">Description:</div>
+                  <textarea rows="3" type="text" class="footer-form__input"></textarea>
+                </label>
+              </div>
+            </div>
+            <div class="social">
+              <a href="https://careers.tql.com/ListJobs/All" target="_blank"
+                class="btn btn-secondary btn-for-bg text-uppercase">Search Jobs</a>
 
-</ul>
-	  <a href="#myModal" class="btn btn-primary text-uppercase" data-toggle="modal">Request a Quote</a>
-	</div>
+                <div class="social-tel">
+                  <div class="social-tel__title">Tel:</div>
+                  <a href="tel:4076358712"
+                  onclick="dataLayer.push({'event': 'customEvent','eventCategory': 'Phone Call','eventAction': 'Click To Call','eventLabel': 'Header'});">4076358712</a>
                 </div>
-             </div>
-		 </div>
-		</div>
-        <div class="column">
-		  <div class="footer-accordion">
-			<span class="nav-title"><a href="carriers.html" class="opener">carriers</a></span>
-			<div class="slide">
-              <ul class="footer-nav">
-<li><a href="carriers.html" >Carriers</a></li>
-<li><a href="https://tqlcarriers.rmissecure.com/_s/reg/generalrequirementsv2.aspx" >Get Set Up</a></li>
-<li><a href="carrier-dashboard.html" >TQL Carrier Dashboard</a></li>
-<li><a href="carrier-faqs.html" >FAQs</a></li>
-<li><a href="https://carrierdashboard.tql.com/#/LoadSearch" >Load Board</a></li>
-
-</ul>
             </div>
-		  </div>
-		  <div class="footer-accordion">
-			<span class="nav-title"><a href="about-us.html" class="opener">about us</a></span>
-			<div class="slide">
-              <ul class="footer-nav">
-<li><a href="about-us.html" >About Us</a></li>
-<li><a href="cares.html" >TQL Cares</a></li>
-<li><a href="tql-in-the-news.html" >TQL In The News</a></li>
-<li><a href="press-releases.html" >Press Releases</a></li>
-<li><a href="drive-blog.html" >TQL Drive Blog</a></li>
-<li><a href="lifeattql-blog.html" >Life At TQL Blog</a></li>
+          </div>
+        </div>
+        <script>
+          var cookieLevelInterval = setInterval(function () {
+            if (typeof $ == 'function') {
+              $('.accept-button').click(function () {
+                setCookie('CMSCookieLevel', 1000, 365);
+                $('.gdpr-banner').hide();
+                clearInterval(cookieLevelInterval);
+              });
+            } else {
+              console.log('iterating');
+            }
+          }, 100);
 
-</ul>
-            </div>
-		  </div>
-		</div>
-		<div class="column">
-		  <div class="footer-accordion">
-			<span class="nav-title"><a href="jobs.html" class="opener">jobs</a></span>
-			<div class="slide">
-              <ul class="footer-nav">
-<li><a href="jobs.html" >Jobs</a></li>
-<li><a href="https://www.applytracking.com/optin.aspx?c=kb9D6zkq4X42sf7EuKyNq0lx5cTfrYJb&amp;source=TNF"  target="_blank">Join Talent Network</a></li>
-<li><a href="jobs-benefits.html" >Benefits</a></li>
-<li><a href="contact/locations.html" >Locations</a></li>
-
-</ul>
-<a href="https://careers.tql.com/ListJobs/All" target="_blank" class="btn btn-secondary btn-for-bg text-uppercase">Search Jobs</a>
-            </div>
-		  </div>
-		</div>
-	  </div>
-	</div>
-</div><div class="contacts-block">
-	<div class="container container-sm"><div class="column">
-		<span class="nav-title">Contact us</span>
-<span class="adr"><a href="tel:8005803101" ><span class="icon-phone ico"></span>800.580.3101</a></span>
-<span class="adr"><a href="contact/locations.html" ><span class="icon-pin ico"></span>Locations</a></span>
-
-</div><div class="column">
-		<span class="nav-title">follow us</span>
-<div class="social-block text-primary">
-  <span>Life at TQL Channels</span>
-  <ul class="social-networks">
-  <li><a href="https://www.instagram.com/lifeattql/?hl=en" target="_blank" class="text-primary"><span class="sr-only">Instagram</span><span class="icon-instagram"></span></a></li>
-<li><a href="http://www.youtube.com/user/TQLogistics" target="_blank" class="text-primary"><span class="sr-only">youtube</span><span class="icon-youtube"></span></a></li>
-<li><a href="http://www.linkedin.com/company/total-quality-logistics?trk=biz-companies-cym" target="_blank" class="text-primary"><span class="sr-only">linkedin</span><span class="icon-linkedin"></span></a></li>
-
-  </ul>
-</div><div class="social-block ">
-  <span>Industry Channels</span>
-  <ul class="social-networks">
-  <li><a href="http://www.facebook.com/TotalQualityLogistics?fref=ts" target="_blank" class=""><span class="sr-only">facebook</span><span class="icon-facebook"></span></a></li>
-<li><a href="https://twitter.com/TQLogistics" target="_blank" class=""><span class="sr-only">twitter</span><span class="icon-twitter"></span></a></li>
-<li><a href="http://www.linkedin.com/company/total-quality-logistics?trk=biz-companies-cym" target="_blank" class=""><span class="sr-only">linkedin</span><span class="icon-linkedin"></span></a></li>
-
-  </ul>
-</div>
-</div>	</div>
-</div><div class="copyright-block">
-	<div class="container container-sm">	
-	  <ul>
-		<li>©2020 <a href="index.html">TQL</a></li>
-<li><a href="privacy.html" >Privacy</a></li><li><a href="terms.html" >Terms</a></li><li><a href="eeo.html" >EEO</a></li><li><a href="responsiblecarepolicy.html" >Responsible Care</a></li><li><a href="sitemap.html" >Site Map</a></li>
-	  </ul>
-	</div>
-</div><div class="gdpr-banner"><div class="gdpr-inner"><span class="ConsentButtons"></span><span class="accept-button"></span>
-We use cookies on our website. To learn more about how we use cookies and how to change your cookie settings if you do not want cookies on your computer, please see our <a href="privacy.html">Privacy and Cookies Policy</a>.  By continuing to use this site you consent to our use of cookies in accordance with our <a href="privacy.html">Privacy and Cookies Policy</a>.
-</div></div>
-
-<script>
-  var cookieLevelInterval = setInterval(function() {
-    if (typeof $ == 'function') {
-      $('.accept-button').click(function() {
-      setCookie('CMSCookieLevel', 1000, 365);
-      $('.gdpr-banner').hide();
-        clearInterval(cookieLevelInterval);
-      });
-    } else {
-      console.log('iterating');
-    }
-  }, 100);
-  
-  function setCookie(cname, cvalue, exdays) {
-    var d = new Date();
-    d.setTime(d.getTime() + (exdays*24*60*60*1000));
-    var expires = "expires="+ d.toUTCString();
-    document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
-  }
-</script>
-    <a href="#wrapper" class="go-to-top bg-primary scroll-link"><span class="icon-left-arrow"></span><span class="sr-only">go to top</span></a>
-  <a class="accessibility top-skip" href="#wrapper">Back to top</a>
-  </footer>
+          function setCookie(cname, cvalue, exdays) {
+            var d = new Date();
+            d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+            var expires = "expires=" + d.toUTCString();
+            document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+          }
+        </script>
+        <a href="#wrapper" class="go-to-top bg-primary scroll-link"><span class="icon-left-arrow"></span><span
+            class="sr-only">go to top</span></a>
+        <a class="accessibility top-skip" href="#wrapper">Back to top</a>
+      </footer>
   <div class="modal modal-quote fade" id="myModal">
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
